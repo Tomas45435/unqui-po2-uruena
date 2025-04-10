@@ -1,11 +1,11 @@
-package ar.edu.unq.po.tp3.counter;
+package ar.edu.unq.po.tp3.counter.test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import ar.edu.unq.po.tp3.Counter;
+import ar.edu.unq.po.tp3.counter.Counter;
 
 public class CounterTestCase {
 	private Counter counter;
@@ -38,7 +38,7 @@ public class CounterTestCase {
 
 	}
 	
-	/**
+	/*
 	* Verifica la cantidad de numeros pares
 	*/
 	
@@ -53,7 +53,7 @@ public class CounterTestCase {
 	}
 	
 	
-	/**
+	/*
 	* Verifica la cantidad de numeros impares
 	*/
 	
@@ -68,7 +68,7 @@ public class CounterTestCase {
 	}
 	
 	
-	/**
+	/*
 	* Verifica la cantidad de numeros que son multiplo de tres
 	*/
 	
