@@ -2,8 +2,6 @@ package ar.edu.unq.po2.tp3.NumberAnalyzer.test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import java.util.ArrayList;
-
 import org.junit.jupiter.api.Test;
 
 import ar.edu.unq.po2.tp3.NumberAnalyzer.NumberAnalyzer;
