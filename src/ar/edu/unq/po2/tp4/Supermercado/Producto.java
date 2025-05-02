@@ -1,4 +1,4 @@
-package ar.edu.unq.po2.tp3.Supermercado;
+package ar.edu.unq.po2.tp4.Supermercado;
 
 public class Producto {
 	
@@ -12,11 +12,11 @@ public class Producto {
 	}
 	
 	//Constructor especifico para indicar que el producto es parte del programa de precios cuidados.
-		public Producto(String nombreProducto, Double precioProducto, Boolean esPrecioCuidado) {
-			setNombre(nombreProducto);
-			setPrecio(precioProducto);
-			setEsPrecioCuidado(esPrecioCuidado);
-		}
+	public Producto(String nombreProducto, Double precioProducto, Boolean esPrecioCuidado) {
+		setNombre(nombreProducto);
+		setPrecio(precioProducto);
+		setEsPrecioCuidado(esPrecioCuidado);
+	}
 
 	public String getNombre() {
 		return nombre;
