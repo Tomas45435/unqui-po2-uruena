@@ -19,7 +19,7 @@ public class Maquina {
 		this.estadoActual.ingresarFicha(this);
 	}
 	
-	public void cambiarAEstado(EstadoMaquina estado) {
+	protected void cambiarAEstado(EstadoMaquina estado) {
 		this.setEstadoActual(estado);
 	}
 	
